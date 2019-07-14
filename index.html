@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://bradleytaunt.com/typesafe-css/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TypeSafe CSS</title>
+    <link rel="stylesheet" href="typesafe.css">
+    <link rel="shortcut icon" href="https://bradleytaunt.com/favicon.png">
+</head>
+
+<body>
+    <main>
+        <h1 style="margin:0;">Gyan Lakhwani</h1>
+        <h4 style="margin:0;">Interaction Designer // Cat Appreciator</h4>
+        <hr>
+        <p>I like making things with technology. Here are some of the things I've worked on. <i>thing</i> - which is great. Unfortunately, websites have become just as complex <sup><a href="https://bradleytaunt.com/typesafe-css/#1">1</a></sup> and with complexity comes <b>bloat</b>. Custom typefaces. CSS libraries that try to do too much. Massive JavaScript frameworks. Hundreds of dependencies. Where is the <i>simplicity</i>?</p>
+        <h2>Introduction</h2>
+        <p>I didn't set out to create a minimal CSS file centered around reading and writing. My original goal was to further simplify the styling on my <a href="https://bradleytaunt.com/">personal blog</a>. In the end, I figured this might be something the design / development community might be interested in. So, here we are.</p>
+        <p>A few fast-facts about this CSS:</p>
+        <ul>
+            <li>Under 1KB total (753 bytes!)</li>
+            <li>Fully responsive</li>
+            <li>Formatted for <a href="https://baymard.com/blog/line-length-readability">optimal line length</a></li>
+            <li>Zero dependencies</li>
+        </ul>
+
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#fonts">Web Safe Fonts</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#headings">Headings</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#paragraphs">Paragraphs</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#blockquotes">Blockquotes</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#lists">List Items</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#tables">Tables</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#syntax">Syntax Highlighting</a></li>
+            <li><a href="https://bradleytaunt.com/typesafe-css/#source">Source Code (CSS)</a></li>
+        </ul>
+
+        <h2 id="fonts">Web Safe Fonts</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Default Font Family</th>
+                    <th>Windows Support</th>
+                    <th>Mac Support</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trebuchet MS (<i>headings</i>)</td>
+                    <td>99.67%</td>
+                    <td>97.12%</td>
+                </tr>
+                <tr>
+                    <td>Palatino (<i>main content</i>)</td>
+                    <td>99.29%</td>
+                    <td>86.13%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Fallback Font Family</th>
+                    <th>Windows Support</th>
+                    <th>Mac Support</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Helvetica (<i>headings</i>)</td>
+                    <td>7.34%</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Georgia (<i>main content</i>)</td>
+                    <td>99.4%</td>
+                    <td>97.48%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="headings">Headings</h2>
+
+        <h1>This is a H1 Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta veniam esse dolorem expedita eos nemo laudantium perferendis id saepe voluptates, tempore ullam facilis repellendus porro nam non, minus repudiandae?</p>
+
+        <h2>This is a H2 Heading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta veniam esse dolorem expedita eos nemo laudantium perferendis id saepe voluptates, tempore ullam facilis repellendus porro nam non, minus repudiandae?</p>
+
+        <h3>This is a H3 Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta veniam esse dolorem expedita eos nemo laudantium perferendis id saepe voluptates, tempore ullam facilis repellendus porro nam non, minus repudiandae?</p>
+
+        <h4>This is a H4 Heading</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta veniam esse dolorem expedita eos nemo laudantium perferendis id saepe voluptates, tempore ullam facilis repellendus porro nam non, minus repudiandae?</p>
+
+        <h5>This is a H5 Heading</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta veniam esse dolorem expedita eos nemo laudantium perferendis id saepe voluptates, tempore ullam facilis repellendus porro nam non, minus repudiandae?</p>
+
+        <h6>This is a H6 Heading</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta veniam esse dolorem expedita eos nemo laudantium perferendis id saepe voluptates, tempore ullam facilis repellendus porro nam non, minus repudiandae?</p>
+
+        <h2 id="paragraphs">Paragraphs</h2>
+        <p>Below you can see <i>lorem ipsum</i> examples of default paragraph styling. This includes <i>italic</i>, <b>bold</b>, <strong>strong</strong>, and <mark>mark</mark> elements.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam fugit sapiente harum fugiat, consequuntur aut, beatae, cum itaque voluptates at hic. <i>Inventore minima fugit</i> ipsa nihil a minus officia molestiae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Tempore illo sequi mollitia</b> corrupti quaerat natus repellat minima. Non, corrupti nam possimus obcaecati soluta labore facere sunt ipsum repellat voluptatem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur eos dicta dolor, nisi est unde in omnis odio repellat sint dolore error <mark>maxime quos facilis</mark> ea, eum ipsum numquam. Corporis?</p>
+
+        <h2 id="blockquotes">Blockquotes</h2>
+        <blockquote cite="./TypeSafe CSS_files/saved_resource">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium sapiente obcaecati minus quidem molestiae soluta aliquid expedita quo. Adipisci tenetur eaque neque non similique. Illum hic omnis fugiat ducimus quam!
+        </blockquote>
+
+        <h2 id="lists">List Items</h2>
+
+        <p>An unordered list grouping:</p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+        </ul>
+
+        <p>An ordered list grouping:</p>
+        <ol>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+        </ol>
+
+        <p>Secondary listing nested within a parent:</p>
+        <ul>
+            <li>
+                Lorem ipsum dolor sit amet consectetur
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                </ul>
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+        </ul>
+
+        <h2 id="tables">Tables</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Table Heading 1</th>
+                    <th>Table Heading 2</th>
+                    <th>Table Heading 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table Body 1.1</td>
+                    <td>Table Body 1.2</td>
+                    <td>Table Body 1.3</td>
+                </tr>
+                <tr>
+                    <td>Table Body 2.1</td>
+                    <td>Table Body 2.2</td>
+                    <td>Table Body 2.3</td>
+                </tr>
+                <tr>
+                    <td>Table Body 3.1</td>
+                    <td>Table Body 3.2</td>
+                    <td>Table Body 3.3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="syntax">Syntax Highlighting</h2>
+        <p>Some basic styling for code / syntax snippets are included:</p>
+        <pre><code>.random-class {
+    display: block;
+    height: 10px;
+    width: 100%;
+}</code></pre>
+        <p>These styles are minimal on purpose. Therefore it's recommended to use more customized options if you intend to display large amounts of syntax content. Good plugins / CSS libraries to consider:</p>
+        <ul>
+            <li><a href="https://prismjs.com/">Prism.js</a></li>
+            <li><a href="https://highlightjs.org/">Highlight.js</a></li>
+        </ul>
+
+        <h2 id="source">Source Code (CSS)</h2>
+        <p>To use TypeSafe CSS, simply use the following in the <code>head</code> of your website:</p>
+        <pre><code>&lt;link rel="stylesheet" href="https://bradleytaunt.com/typesafe-css/typesafe.css"&gt;</code></pre>
+        <p>Or if you require the CSS to be loaded alongside other CSS:</p>
+        <pre><code>@import url('https://bradleytaunt.com/typesafe-css/typesafe.css');</code></pre>
+        <p>If you would prefer to self-host, copy the code below or fork the project on the <a href="https://github.com/bradleytaunt/typesafe-css">github repo</a>.</p>
+        <script src="./TypeSafe CSS_files/b88864c55ca78f821475b37715f02963.js"></script><link rel="stylesheet" href="./TypeSafe CSS_files/gist-embed-a9a1cf2ca01efd362bfa52312712ae94.css"><div id="gist96950836" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-typesafe-css" class="file">
+
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-css ">
+
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tbody><tr>
+        <td id="file-typesafe-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-typesafe-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">*</span>{<span class="pl-c1"><span class="pl-c1">box-sizing</span></span>:<span class="pl-c1">border-box</span>;}<span class="pl-ent">body</span>{<span class="pl-c1"><span class="pl-c1">font</span></span>: <span class="pl-c1">16<span class="pl-k">px</span></span>/<span class="pl-c1">1.5</span> <span class="pl-s"><span class="pl-pds">"</span>Palatino<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Georgia<span class="pl-pds">"</span></span>,<span class="pl-c1">serif</span>;<span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">0</span> <span class="pl-c1">auto</span>;<span class="pl-c1"><span class="pl-c1">max-width</span></span>:<span class="pl-c1">75<span class="pl-k">ch</span></span>;<span class="pl-c1"><span class="pl-c1">padding</span></span>:<span class="pl-c1">1<span class="pl-k">rem</span></span>;}<span class="pl-ent">h1</span>,<span class="pl-ent">h2</span>,<span class="pl-ent">h3</span>,<span class="pl-ent">h4</span>,<span class="pl-ent">h5</span>,<span class="pl-ent">h6</span>{<span class="pl-c1"><span class="pl-c1">font-family</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Trebuchet MS<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Helvetica Neue<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Helvetica<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Arial<span class="pl-pds">"</span></span>,<span class="pl-c1">sans-serif</span>;<span class="pl-c1"><span class="pl-c1">margin</span></span>:<span class="pl-c1">2.5<span class="pl-k">rem</span></span> <span class="pl-c1">0</span> <span class="pl-c1">1<span class="pl-k">rem</span></span>;}<span class="pl-ent">ul</span> <span class="pl-ent">li</span>, <span class="pl-ent">ol</span> <span class="pl-ent">li</span>{<span class="pl-c1"><span class="pl-c1">margin-top</span></span>: <span class="pl-c1">0.5<span class="pl-k">rem</span></span>;}<span class="pl-ent">a</span>,<span class="pl-ent">a</span><span class="pl-e">:visited</span>{<span class="pl-c1"><span class="pl-c1">color</span></span>:<span class="pl-c1">black</span>;}<span class="pl-ent">a</span><span class="pl-e">:hover</span>{<span class="pl-c1"><span class="pl-c1">color</span></span>:<span class="pl-c1">dodgerblue</span>;}<span class="pl-ent">img</span>{<span class="pl-c1"><span class="pl-c1">height</span></span>:<span class="pl-c1">auto</span>;<span class="pl-c1"><span class="pl-c1">max-width</span></span>:<span class="pl-c1">100<span class="pl-k">%</span></span>;}<span class="pl-ent">pre</span>{<span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">lightgrey</span>;<span class="pl-c1"><span class="pl-c1">overflow</span></span>:<span class="pl-c1">auto</span>;}<span class="pl-ent">code</span>{<span class="pl-c1"><span class="pl-c1">color</span></span>:<span class="pl-c1">orangered</span>;<span class="pl-c1"><span class="pl-c1">display</span></span>:<span class="pl-c1">inline-block</span>;}<span class="pl-ent">pre</span> <span class="pl-ent">code</span>{<span class="pl-c1"><span class="pl-c1">padding</span></span>:<span class="pl-c1">1<span class="pl-k">rem</span></span>;}<span class="pl-ent">blockquote</span>{<span class="pl-c1"><span class="pl-c1">border-left</span></span>:<span class="pl-c1">5<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">lightgrey</span>;<span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">120<span class="pl-k">%</span></span>;<span class="pl-c1"><span class="pl-c1">font-style</span></span>:<span class="pl-c1">italic</span>;<span class="pl-c1"><span class="pl-c1">margin</span></span>:<span class="pl-c1">2<span class="pl-k">rem</span></span> <span class="pl-c1">0</span>;<span class="pl-c1"><span class="pl-c1">padding</span></span>:<span class="pl-c1">1<span class="pl-k">rem</span></span>;}<span class="pl-ent">table</span>{<span class="pl-c1"><span class="pl-c1">border-collapse</span></span>:<span class="pl-c1">collapse</span>;<span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">2<span class="pl-k">rem</span></span> <span class="pl-c1">0</span>;<span class="pl-c1"><span class="pl-c1">text-align</span></span>:<span class="pl-c1">left</span>;<span class="pl-c1"><span class="pl-c1">width</span></span>:<span class="pl-c1">100<span class="pl-k">%</span></span>;}<span class="pl-ent">tr</span>{<span class="pl-c1"><span class="pl-c1">border-bottom</span></span>:<span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">lightgrey</span>;}<span class="pl-ent">th</span>,<span class="pl-ent">td</span>{<span class="pl-c1"><span class="pl-c1">padding</span></span>:<span class="pl-c1">0.5<span class="pl-k">rem</span></span>;}<span class="pl-ent">hr</span>{<span class="pl-c1"><span class="pl-c1">background</span></span>:<span class="pl-c1">lightgrey</span>;<span class="pl-c1"><span class="pl-c1">border</span></span>:<span class="pl-c1">0</span>;<span class="pl-c1"><span class="pl-c1">height</span></span>:<span class="pl-c1">1<span class="pl-k">px</span></span>;<span class="pl-c1"><span class="pl-c1">margin</span></span>:<span class="pl-c1">2<span class="pl-k">rem</span></span> <span class="pl-c1">0</span>;}</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/bradleytaunt/b88864c55ca78f821475b37715f02963/raw/6a139ad7f55461625361962ce12b4d5d3e614e14/typesafe.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/bradleytaunt/b88864c55ca78f821475b37715f02963#file-typesafe-css">typesafe.css</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+
+    </main>
+    <hr>
+    <footer>
+        <small><sup id="1">1</sup> This isn't always a negative. Some complex websites serve a purpose.</small>
+    </footer>
+
+</body></html>
